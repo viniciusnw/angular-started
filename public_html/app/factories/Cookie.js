@@ -1,3 +1,16 @@
+// 
+// 
+// ---------------------------------------------------------------------------
+//
+//  # Factory - App
+//
+//  Version: 1.0
+//  Homepage: *
+//  Latest update: 12 Dez, 2016
+//  Code~Review: Vinicius Inácio <viniciusnw@hotmail.com>
+//
+// ---------------------------------------------------------------------------
+
 app.factory('Cookie', function ( $cookies ){
     
     //Factory
@@ -15,5 +28,5 @@ app.factory('Cookie', function ( $cookies ){
         
             $cookies.remove( key );
         }
-    }
+    };
 });

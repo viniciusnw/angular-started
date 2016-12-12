@@ -94,10 +94,11 @@ function angular(){
                     'public_html/app/angular/angular.min.js',
 
                     //Angular Components -->
-                    'public_html/app/angular/angular-route.min.js',
+                    'public_html/app/angular/angular-route.js',
                     'public_html/app/angular/angular-cookies.min.js',
                     'public_html/app/angular/angular-animate.min.js',
-                    'public_html/app/angular/angular-loading-bar.js'
+                    'public_html/app/angular/angular-loading-bar.js',
+                    'public_html/app/angular/ui-bootstrap.js'
                     //Angular Components -->
                 ])
                 .pipe(
