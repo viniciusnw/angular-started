@@ -1,5 +1,4 @@
 // 
-// 
 // ---------------------------------------------------------------------------
 //
 //  # Controller - App
@@ -10,10 +9,11 @@
 //  Code~Review: Vinicius Inácio <viniciusnw@hotmail.com>
 //
 // ---------------------------------------------------------------------------
+//
 
-app.controller('Home', function(  ) {
+app.controller('Home', function( ServiceClass ) {
     
     var controller = this;
     
-    alert( "Welcome" );
+    ServiceClass.get();
 });

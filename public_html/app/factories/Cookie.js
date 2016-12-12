@@ -13,6 +13,8 @@
 
 app.factory('Cookie', function ( $cookies ){
     
+    var key = 'cookie';
+    
     //Factory
     return{
         

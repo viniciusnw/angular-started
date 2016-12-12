@@ -14,7 +14,7 @@
 app.factory('Token', function ( Cookie ){
     
     // Default key cookie token
-    var key = 'userToken';
+    var key = 'token';
     
     // Factory
     return{

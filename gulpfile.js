@@ -205,7 +205,4 @@ gulp.task('watch', function(){
 /* *
  * Start build and init project
  */
-
-
-//Start project
 gulp.task('start', ['watch', 'angular', 'server']);
