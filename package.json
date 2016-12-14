@@ -1,6 +1,6 @@
 {
   "name": "angular-started",
-"version": "1.0.0",
+  "version": "1.0.0",
   "description": "Front-end - Angular Started",
   "main": "server",
   "author": "Vinicius Inácio",
@@ -24,6 +24,7 @@
     "gulp-rename": ">=0.2.2",
     "gulp-uglify": "^1.1.0",
     "gulp-util": ">=2.2.13",
-    "gulp-watch": "^4.1.1"
+    "gulp-watch": "^4.1.1",
+    "jasmine": "^2.5.2"
   }
 }
